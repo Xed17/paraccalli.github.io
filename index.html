@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./love.css">
+</head>
+<body>
+    <main id="hero">
+        <div class="promo">
+            <h1 class="titulo">HOLAA</h1>
+            <p class="texto">holii como estás</p>
+            <details class="texto">
+                <summary>ABRIR DE SER NECESARIO</summary>
+                <p class="texto">Feliz cunpleaños amorcito ya creciste un montón unu, espero que tengas muchos regalitos hoy y aquí esta el mío</p>
+                <p class="texto">Te regalo este video de un gatito</p>
+                <p class="texto">(así me tienes)</p>
+            </details>
+        </div>
+        <video muted autoplay loop src="./VID_53180425_002257_152.mp4"></video>
+        
+    </main>
+    <div class="capa"></div>
+    <p class="promo texto">AQUÍ TE DEJO OTRO REGALITO</p><a class="texto" href="./dibujito.png">OJO</a>
+    <hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr>
+    <p class="promo texto">MIRAA 2 BOTONCITOS</p>
+    <button id="yes">Elige obligatoriamente este botón >:v</button>
+    <button id="no">Otro botón jasjdjasjdjasj xdxdxddd</button>
+
+
+    <script>
+      const vuttonSi = document.getElementById('yes');
+      const vuttonNo = document.getElementById('no');
+  
+      const zomosNobios = () => {
+        alert('omg me hiciste caso');
+        alert('muak te amo gatita preciosa');
+        alert('uwu');
+        location.href ='https://www.youtube.com/watch?v=HWSyk8SaLSo';
+      };
+  
+      const ebitarKCRompaMyBobo = () => {
+        vuttonNo.style.position = 'absolute';
+        vuttonNo.style.top = (Math.random() * window.innerHeight + 'px');
+        vuttonNo.style.left = (Math.random() * window.innerWidth + 'px');
+      };
+  
+      vuttonSi.addEventListener('click', zomosNobios);
+      vuttonNo.addEventListener('mouseover', ebitarKCRompaMyBobo);
+    </script>
+    
+</body>
+</html> 
